@@ -1,0 +1,55 @@
+{
+
+     "主页"："https://pc.wps.cn"
+
+     "描述"："完整的办公套房"
+
+     "版本"："11.1.0.9564"，  
+
+     "许可证"： |
+
+        "识别"："免费软件"    
+
+         "url"："https://www.wps.com/eula"   
+
+    },
+
+     "url"："https://pacakge.cache.wpscdn.cn/wps/download/W.P.S.9564.12012.2019.exe#/dl.7z"  
+
+     "哈希"："e04020495f63b45598d890c682e9365bc63c461d4eaa14a164d89768db77c767" ，
+
+     "extract_dir"："11美元"
+
+     "pre_install"： |
+
+         "展开-7zipArchive"$dir[$EXEFILE] -开关'-t_'，
+
+         "删除项目""$dir*" -排除'4.7z' -Recurse"，
+
+        "展开-7zipArchive"$dir *4.7z" -提取迪尔'办公室6' -删除"
+
+    ],
+
+     "快捷方式"： |
+
+        [
+
+             "wpsoffice.exe"，
+
+            "WPS 办公室"
+
+        ]
+
+    ],
+
+     "检查器"："（sm）W=。P=。S=。（<num>][][.exe.]？verson_txt[gt;[]d.]*）"，
+
+     "自动更新"： |
+
+         "网址"：""https：//pacakge.cache.wpscdn.cn/wps/下载/W.P.S.$matchNum.exe_/dl.7z"，
+
+         "extract_dir"："$majorVersion_美元" 
+
+    }
+
+}
