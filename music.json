@@ -4,7 +4,7 @@
     "extract_dir":  "",
     "url":  "https://music.163.com/api/pc/download/latest",
     "depends":  "",
-    "homepage":  "",
+    "homepage":  "https://music.163.com",
     "hash":  "",
     "bin":  ""
 }
