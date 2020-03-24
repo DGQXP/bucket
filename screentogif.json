@@ -1,47 +1,24 @@
 {
-
-     "主页"："https://www.screentogif.com/"
-
-     "版本"："2.22.1"，  
-
-     "描述"："屏幕，网络摄像头和素描板记录器与集成编辑器。
-
-     "许可证"："MS-PL"
-
-     "url"："https://github.com/NickeManarin/ScreenToGif/releases/download/2.22.1/ScreenToGif.2.22.1.Portable.zip"  
-
-     "哈希"：""657168556056668a4defa4b808f6ebc6b24a5329c9adc76094794e69703a01c99" ，
-
-     "am"  ："屏幕 Togif.exe"， 
-
-     "快捷方式"： |
-
+    "homepage": "https://www.screentogif.com/",
+    "version": "2.22.1",
+    "description": "Screen, webcam and sketchboard recorder with an integrated editor.",
+    "license": "MS-PL",
+    "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.22.1/ScreenToGif.2.22.1.Portable.zip",
+    "hash": "65716855605668a4defa4b808f6ebc6b24a5329c9adc76094794e69703a01c99",
+    "bin": "ScreenToGif.exe",
+    "shortcuts": [
         [
-
-             "ScreenToGif.exe"，
-
-            "屏幕"
-
+            "ScreenToGif.exe",
+            "ScreenToGif"
         ]
-
     ],
-
-     "建议"：|
-
-         "FFmpeg"  ："ffmpeg" 
-
+    "suggest": {
+        "FFmpeg": "ffmpeg"
     },
-
-     "检查者"： |
-
-         "吉丘布"："https://github.com/NickeManarin/ScreenToGif"   
-
+    "checkver": {
+        "github": "https://github.com/NickeManarin/ScreenToGif"
     },
-
-     "自动更新"： |
-
-         "网址"："https：//github.com/尼克马纳林/ScreenToGif/发布/下载/$version/ScreenToGif.$version.zip" 
-
+    "autoupdate": {
+        "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.zip"
     }
-
 }
