@@ -1,12 +1,9 @@
 {
     "homepage": "https://im.qq.com/",
     "description": "I'm QQ - 每一天,乐在沟通",
-    "version": "20200326",
-    "architecture": {
-        "64bit": {
-                "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ2020.exe",
-               }
-        },
+    "version": "2020",
+    "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ2020.exe",
     "extract_dir": "Files/qq",
     "bin": "PCQQ2020.exe"
+    "autoupdate": "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ$version.exe",
 }
