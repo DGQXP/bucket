@@ -1,8 +1,0 @@
-{
-    "homepage": "https://im.qq.com/",
-    "description": "I'm QQ - 每一天,乐在沟通",
-    "version": "2020",
-    "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ2020.exe",
-    "extract_dir": "Files/qq",
-    "bin": "PCQQ2020.exe"
-}
