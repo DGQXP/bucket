@@ -6,6 +6,6 @@
     "extract_dir": "Files/qq",
     "bin": "PCQQ2020.exe"
     "autoupdate": {
-    "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ$version.exe"
-   }
+        "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ$version.exe"
+    }
 }
