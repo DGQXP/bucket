@@ -5,6 +5,6 @@
     "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ2020.exe",
     "extract_dir": "Files/qq",
     "bin": "PCQQ2020.exe"
-    "autoupdate": {
+    "autoupdate" : {
     "url": "https://qd.myapp.com/myapp/qqteam/pcqq/PCQQ$version.exe"
 }
